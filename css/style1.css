@@ -1,0 +1,79 @@
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #333;
+    background-color: #F5F5F5;
+}
+
+h1, h2, h3 {
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+/* Estilos para o cabeçalho */
+header {
+    background-color: #34568B;
+    padding: 20px;
+    color: #fff;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    margin: 0 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+    background-color: #6CA6CD;
+}
+
+article img {
+    max-width: 100%; /* Define a largura máxima da imagem para se ajustar ao tamanho do container */
+    display: block; /* Garante que a imagem se comporte como um bloco e não quebre a linha */
+    margin: 0 auto; /* Centraliza a imagem horizontalmente */
+    border-radius: 10px; /* Adiciona bordas arredondadas */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra suave */
+}
+
+/* Estilos para o conteúdo principal */
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 30px;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+article {
+    margin-top: 20px;
+}
+
+/* Estilos para o rodapé */
+footer {
+    background-color: #34568B;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
